@@ -8,9 +8,10 @@ import java.util.Map;
 @Data
 public class Activity {
 
-    private Long id;
+    private String id;
     private String userId;
     private String type;
+    private String activityId;
     private Integer duration;
     private Integer calorieBurned;
     private LocalDateTime startTime;
